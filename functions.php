@@ -3,24 +3,25 @@
 function top($title, $htmlClass='') {
 	$pages = array(
 		'alpha' => 'Alphabetizer',
-		'clock' => 'Clock',
-		'markdown' => 'Markdown dingus',
-		'colorizer' => 'Colorizer',
-		'urlizer' => 'URLizer',
-		'nobr' => 'Line break remover',
-		'html_strip' => 'HTML tag stripper',
-		'doubler' => 'Character doubler',
-		'blackboard' => 'Blackboard bolder',
 		'base_convert' => 'Binary, decimal, hex converter',
 		'bitwise_nand' => 'Bitwise nandifier',
+		'blackboard' => 'Blackboard bolder',
+		'clock' => 'Clock',
+		'colorizer' => 'Colorizer',
+		'doubler' => 'Character doubler',
+		'html_strip' => 'HTML tag stripper',
+		'markdown' => 'Markdown dingus',
+		'nobr' => 'Line break remover',
 		'osc' => 'Oscillator',
+		'randoms' => 'Randoms',
+		'urlizer' => 'URLizer',
 	);
 	echo '<!DOCTYPE html>';
 	echo "<html class=\"$htmlClass\">";
 	echo '<head>';
 	echo "<title>$title</title>";
-	echo '<link rel="stylesheet" type="text/css" href="the.css">';
 	echo '<meta charset="utf-8">';
+	echo '<link rel="stylesheet" type="text/css" href="the.css">';
 	echo '</head>';
 	echo '<body>';
 	echo '<ul class="sidebar">';
